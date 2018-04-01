@@ -13,4 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/api/feedback', 'API\FeedbackController@store')->name('feedback.store');
+Route::post('/api/feedback', 'API\FeedbackController@store')->name('feedback.store');
